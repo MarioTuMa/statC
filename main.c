@@ -5,7 +5,7 @@
 #include <time.h>
 #include <sys/types.h>
 
-int power(x,y){
+int power(int x,int y){
   if(y==0){
     return 1;
   }
